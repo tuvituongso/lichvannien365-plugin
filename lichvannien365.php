@@ -13,7 +13,7 @@ require plugin_dir_path(__FILE__) . 'plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\PluginUpdateCheckerFactory;
 
 $updateChecker = PluginUpdateCheckerFactory::buildUpdateChecker(
-    'https://github.com/yourusername/lichvannien365-plugin/',
+    'https://github.com/tuvituongso/lichvannien365-plugin/',
     __FILE__,
     'lichvannien365'
 );
